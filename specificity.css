@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Specificity Value 100 */
+#text{
+    color: purple;
+}
+/* Specificity Value 10 */
+.paragraph{
+    color: green;
+}
+
+/* Specificity Value 1*/
+p{
+    color: red;
+}

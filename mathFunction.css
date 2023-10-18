@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* calc() function */
+/* .container{
+    height: 100vh;
+    width: calc(100% - 20%);
+    background: orange;
+} */
+
+/*max() function*/
+/*
+.container{
+    height: 100vh;
+    margin: auto;
+    width: max(50%, 10%);
+    background: red;
+}
+*/
+
+/*min() function*/
+/*
+.container{
+    height: 100vh;
+    margin: auto;
+    width: min(50%, 10%);
+    background: red;
+}
+*/

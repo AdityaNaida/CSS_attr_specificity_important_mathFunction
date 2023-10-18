@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Element selector */
+a{
+    display: block;
+    margin: 10px 0;
+    color: red;
+}
+/* attribute selector */
+a[target]{
+    color: yellowgreen;
+}
+
+/* attribute with value selector */
+a[target='_blank']{
+   color: aqua;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    margin: 2em;
+}
+
+/* img[alt~='nature']{
+    border: 5px solid red;
+}
+ */
+
+ img[class~='tree']{
+    border: 5px solid purple;
+ }
+
+ 
